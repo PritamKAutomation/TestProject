@@ -21,7 +21,7 @@ public class Utility {
 	{
 		FileInputStream file = new FileInputStream("C:\\Users\\Sachin\\Desktop\\amazon.xlsx");
 	    String data = WorkbookFactory.create(file).getSheet(sheet).getRow(row).getCell(cell).getStringCellValue();
-	
+	System.out.println("");
 	    return data;
 	}
 //	    public static String getDataFromExcelSheet(String sheetname,int rowNo, int cellNo) throws EncryptedDocumentException, IOException {
