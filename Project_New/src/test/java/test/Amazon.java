@@ -31,7 +31,7 @@ public class Amazon {
 	void launchbrowser(String expectedBrowser)
 	{
 		System.out.println("expectedBrowser");
-		System.out.println("xpectedBrowser");
+		
 		if (expectedBrowser.equals("Chrome"))
 		{
 			driver =new ChromeDriver();
